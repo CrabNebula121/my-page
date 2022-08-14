@@ -1,95 +1,105 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <!-- 웹페이지 보이지는 않지만, 필요한 설정을 해두는 곳이에요.
-             우리가 집을 위해 미리 생각 해놓은 것을 적어두는 곳이라고 할 수 있죠!-->
-        <meta charset=“UTF-8” />
-        <meta http-equiv=“X-UA-Compatible” content=“IE=edge” />
-        <meta name=“viewport” content=“width=device-width, initial-scale=1.0” />
-        <meta property=“og:title” content=“우경훈의 프로필” />
-        <meta property=“og:description” content=“경훈의 작은 이야기들” />
-        <meta property=“og:image” content=“공유할 이미지” />
-        <title>우경훈 - 프로필 링크</title>
-        <style>
-            @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
-            * {
-                font-family: "Pretendard",serif;
-            }
-            body {
-                background-color: #44398A;
-            }
-            .profile {
-                width: 100px;
-                height: 100px;
-
-                border-radius: 100%;
-
-                border : 2px solid white;
-
-                background-image: url('프로필사진.jpg');
-                background-position: center;
-                background-size: cover;
-            }
-            .main  {
-                color: white;
-                font-size: 20px;
-
-                margin-top: 30px;
-                margin-bottom: 10px;
-            }
-            .sub {
-                color: white;
-                font-size: 14px;
-
-                margin-top: 0px;
-                margin-bottom: 30px;
-            }
-            .wrap {
-                width: 300px;
-                margin: 30px auto 0px auto;
-
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-            }
-            .wrap > a {
-                width: 300px;
-                height: 50px;
-
-                background-color: white;
-                border-radius: 8px;
-
-                margin-bottom: 10px;
-
-                font-size: 14px;
-                font-weight: bold;
-                color: #44398A;
-
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-
-                text-decoration: none;
-
-                box-shadow: 3px 3px 5px 0px black;
-            }
-            .wrap > a:hover {
-                background-color: #d2d2d2;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="wrap">
-            <div class="profile"></diV>
-            <h1 class="main">우경훈</h1>
-            <p class="sub">안녕하세요!</p>
-            <a target="_blank" href="https://www.instagram.com/unwho_121/">인스타그램</a>
-            <a target="_blank" href="https://www.facebook.com/profile.php?id=100014316758009">페이스북</a>
-            <a target="_blank" href="https://blog.naver.com/unwho121">네이버 블로그</a>
-            <a target="_blank" href="https://brunch.co.kr/@unwho121">브런치</a> 
-        </div>
-          
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="우경훈의 Profile">
+    <meta property="og:description" content="경훈의 Hyperlink Archive">
+    <meta property="og:image" content="프로필사진.jpg">
+    <title>우경훈의 프로필</title>
+    <style>
+        @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+        * {
+            font-family: "Pretendard",serif;
+        }
+        body {
+            background-color:#3C3D47;
+;
+        }
+        .profile {
+            width: 130px;
+            height: 130px;
+            border-radius: 100%;
+            border: 2px solid white;
+            background-image: url('프로필사진.jpg');
+            background-position: center;
+            background-size: cover;
+        }
+        .main {
+            color : #FFFFFF;
+            font-size: 18px;
+            size : 20px;
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+        .sub {
+            color : #FFFFFF;
+            font-size: 14px;
+            font-weight: 400;
+            size : 14px;
+            margin-top: 0px;
+            margin-bottom: 30px;
+        }
+        .wrap {
+            width: 300px;
+            margin: 30px auto 0px auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .wrap > a {
+            width: 320px;
+            height: 59px;
+            border-radius: 16px;
+            margin-bottom: 16px;
+            font-size: 16px;
+            font-weight: bold;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            box-shadow: 4px 4px 0px #000000 ;
+        }
+        .wrap > a:hover {
+            background-color: #f2f2f2;
+        }
+        .instagram {
+            background: linear-gradient(287.96deg, rgba(0, 0, 0, 0.16) 15.1%, rgba(0, 0, 0, 0) 83.32%), #ffc1ed;
+            color:#FFFFFF;
+        }
+        .blog {
+            background: linear-gradient(287.96deg, rgba(0, 0, 0, 0.16) 15.1%, rgba(0, 0, 0, 0) 83.32%), #a9ffd1;
+            color:#FFFFFF;
+        }
+        .brunch {
+            background: linear-gradient(287.96deg, rgba(0, 0, 0, 0.16) 15.1%, rgba(0, 0, 0, 0) 83.32%), #939393;
+            color:#FFFFFF;
+        }
+        .hashtag {
+            color: #B1B1B5;
+            font-size: 14px; 
+            background-position: center;
+            background-size: 1000px;
+            position: absolute;
+            bottom: 170px;
+            transform: translate(-50%, -50%);
+            left: 50%;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="profile"></div>
+        <h1 class="main">우경훈</h1>
+        <p class="sub">인하대학교 생명과학과 22학번 우경훈입니다.</p>
+        <a class="instagram" target="_blank" href="https://www.instagram.com/unwho_121/">인스타그램</a>
+        <a class="blog" target="_blank" href="https://blog.naver.com/unwho121">블로그</a>
+        <a class="brunch" target="_blank" href="https://brunch.co.kr/@unwho121">브런치</a>
+    </div>
+    <div class="hashtag">@unwho121<br>copyright 2022. unwho121 all rigihts reserved</div>
+</body>
 </html>
